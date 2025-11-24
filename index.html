@@ -3,46 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe Website</title>
+    <title>PROJECT Website</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>My Company</h1>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <h2>silorioTitle</h2>
+        </div>
+
+        <nav class="nav-center">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Gallery</a>
+        </nav>
+
+        <div class="nav-right">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
     </header>
 
-    <section class="intro">
-        <h1>Header Text</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    </section>
-
-    <section class="icons">
-        <a href="#">
-            <img src="https://via.placeholder.com/50" alt="Icon 1">
-            <span>Link 1</span>
-        </a>
-        <a href="#">
-            <img src="https://via.placeholder.com/50" alt="Icon 2">
-            <span>Link 2</span>
-        </a>
-        <a href="#">
-            <img src="https://via.placeholder.com/50" alt="Icon 3">
-            <span>Link 3</span>
-        </a>
-        <a href="#">
-            <img src="https://via.placeholder.com/50" alt="Icon 4">
-            <span>Link 4</span>
-        </a>
-    </section>
-
+    <!-- HERO SECTION -->
     <section class="hero">
-        <img src="images/images.jpg" alt="Hero Image">
-    </section>
+        <div class="hero-left">
+            <h1>Welcome to Silorio</h1>
+            <p>Your journey begins here. Explore more below.</p>
 
-    <footer>
-        <p>&copy; 2025 My Company. All rights reserved.</p>
+            <div class="hero-icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <!-- Local hero image -->
+            <img src="images/images.jpg" alt="Hero Image">
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>Silorio Website</h3>
+            <p>Bringing creativity and design together.</p>
+        </div>
+
+        <div class="footer-center">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Gallery</a>
+        </div>
+
+        <div class="footer-right">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
     </footer>
 
 </body>
